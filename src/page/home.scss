@@ -1,0 +1,16 @@
+@import "../stylesheet/_colour";
+
+@font-face {
+  font-family: 'crocks';
+  src: url("../font/LTInternet-Regular.ttf");
+}
+
+body {
+  background-color: #000000;
+  font-family: crocks, sans-serif;
+}
+
+h1, p {
+  margin: 0;
+  color: $primary-text-color;
+}

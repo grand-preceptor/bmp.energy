@@ -1,15 +1,9 @@
 import React from 'react';
 
-import './app.css';
+import Home from './page/Home';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>GET OFF MY LAWN</h1>
-      </header>
-    </div>
-  );
+  return <Home/>;
 }
 
 export default App;

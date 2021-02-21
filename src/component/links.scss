@@ -1,0 +1,23 @@
+@import '../stylesheet/_colour';
+
+.links {
+  display: flex;
+
+  &__link {
+    width: 32px;
+    height: 32px;
+    padding: 1rem;
+
+    svg {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      transition: all .15s ease-in-out;
+      fill: #fff;
+
+      &:hover {
+        opacity: .9;
+      }
+    }
+  }
+}
