@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Links from '../component/Links';
+import { Links } from '../component/Links';
 
 import './home.scss';
 import '../stylesheet/_common.scss';
 
-const Home = () => (
+export const Home = () => (
   <div className="d-flex">
     <div className="w-50">
       <h1>Benjamin Power</h1>
@@ -20,5 +20,3 @@ const Home = () => (
     </div>
   </div>
 );
-
-export default Home;
