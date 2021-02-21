@@ -5,7 +5,7 @@ import './links.scss';
 import { ReactComponent as LinkedIn } from '../image/linkedin.svg';
 import { ReactComponent as GitHub } from '../image/github.svg';
 
-export const Links = () => (
+const Links = () => (
   <div className="links">
     <div className="links__link">
       <a href="https://www.linkedin.com/in/banjopower/" target="_blank" rel="noreferrer">
@@ -19,3 +19,5 @@ export const Links = () => (
     </div>
   </div>
 );
+
+export default Links;

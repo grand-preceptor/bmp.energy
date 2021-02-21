@@ -15,7 +15,7 @@ const renderImage = (imageSource, srcHeight, srcWidth) => (
     />
   ) : renderEmpty());
 
-export const Image = ({ imageSource, containerHeight, containerWidth, srcHeight, srcWidth }) => (
+const Image = ({ imageSource, containerHeight, containerWidth, srcHeight, srcWidth }) => (
   <div className="image" style={ { height: containerHeight, width: containerWidth } }>
     { renderImage(imageSource, srcHeight, srcWidth) }
   </div>
@@ -36,3 +36,5 @@ Image.defaultProps = {
   srcHeight: undefined,
   srcWidth: undefined,
 };
+
+export default Image;
