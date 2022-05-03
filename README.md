@@ -1,2 +1,2 @@
-# bmp.energy
+# [noydb.wtf](http://noydb.wtf)
 no
